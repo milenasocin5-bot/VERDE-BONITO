@@ -15,7 +15,12 @@ body {
 
 
 .navbar {
-    background-color: #28a745; /* verde botón */
+    background-color: #28a745;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-nav .nav-link {
@@ -140,5 +145,8 @@ body {
     }
 }
 
+
+    
+    
 
 
