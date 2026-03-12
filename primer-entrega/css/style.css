@@ -55,18 +55,19 @@ body {
     position: relative;
 }
 
-.hero-conteiner{
+.hero-container{
     position: relative;
     top: -70px;
 }
 
 .hero .text-overlay {
     position: absolute;
-    top: 25%; /* ajustá este valor para subir o bajar el texto */
+    top: 25%; 
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     width: 90%;
+
     .hero .text-overlay  h1
     {color: #000;}
     .hero .text-overlay p {
