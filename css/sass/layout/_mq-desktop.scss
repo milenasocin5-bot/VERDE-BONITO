@@ -6,7 +6,7 @@
 @media (min-width: 769px) {
 
 // grilla de productos en varias columnas
-    .productos-grid {
+    .productos-grid { display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
