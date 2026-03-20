@@ -1,0 +1,22 @@
+
+
+//MQ TABLET
+
+@media (max-width: 768px) {
+
+    // La grilla de productos pasa a una sola columna
+    .productos-grid {
+        grid-template-columns: 1fr;
+    }
+//FEATURES
+    .features {
+        .row {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-md-4 {
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+//mq desktop
+//media query para pantalla compu
+
+
+@media (min-width: 769px) {
+
+// grilla de productos en varias columnas
+    .productos-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    //features
+    .features {
+        //se acomodan en fila
+        .row {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .col-md-4 {
+            margin-bottom: 0;
+        }
+    }
+}
