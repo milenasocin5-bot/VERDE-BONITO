@@ -119,13 +119,15 @@ img {
   margin-bottom: 10px;
 }
 
-.btn-success {
-  background-color: #28a745;
-  border-color: #28a745;
+.btn-primary {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
 }
-.btn-success:hover {
+&:hover {
   background-color: #218838;
   border-color: #1e7e34;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */
