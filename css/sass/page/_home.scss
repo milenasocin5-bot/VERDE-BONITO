@@ -106,6 +106,7 @@
     border: 1px solid $gris-borde;
     border-radius: 8px;
     padding: 15px;
+    
     //uso flex con mixin para centrar contenido
     @include flex-center;
     flex-direction: column;
@@ -113,6 +114,8 @@
     justify-content: space-between;
     align-items: center;
     display: flex;
+    
+    
     //transicion para hover
     transition: transform 0.3s;
 
@@ -142,5 +145,22 @@
         border-color: $verde-borde;
     }
 }
+
+
+.contenedor-logo {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar {
+    background-color: $verde;
+}
+
+
+
+
+
+
 
 
