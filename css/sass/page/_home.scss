@@ -8,12 +8,10 @@
 // NAVBAR
 // Estilos de la barra de nav ppal
 //Color de fondo y estilo de los link
-.navbar. {
+.navbar {
     background-color: $verde;
-
-
-   // contenedor de los links del menu
-    &-nav {
+    // contenedor de los links del menu 
+   &-nav {
         .nav-link {
             color: $blanco;
             font-weight: 500;
@@ -31,7 +29,7 @@
         }
 
     }
-}
+
 
 
   
@@ -43,9 +41,10 @@
         &-icon {
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/ %3E%3C/svg%3E");
         }
+}
 
+}
 
-    }
 
 //HERO
 //Seccion principal con imagen de fondo y texto en el centro
@@ -127,7 +126,7 @@
     &:hover {
         transform: scale(1.03);
     }
-}
+
 
 //imagen del producto
     &-img {
@@ -137,6 +136,7 @@
         border-radius: 5px;
         margin-bottom: 10px;
     }
+}
 
     //BOTON
 .btn-success {
@@ -149,7 +149,6 @@
         border-color: $verde-borde;
     }
 }
-
 
 
 
