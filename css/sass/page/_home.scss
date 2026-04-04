@@ -140,9 +140,9 @@
 }
 
     //BOTON
-.btn-success {
-    background-color: $verde;
-    border-color: $verde;
+.btn-primary {
+    background-color: $verde !important;
+    border-color: $verde !important;
 
     //HOVER DEL BOTON
     &:hover {
