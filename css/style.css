@@ -30,7 +30,7 @@
   }
 }
 .navbar {
-  background-color: #1e7e34 !important;
+  background-color: #2c5c37;
 }
 .navbar-nav .nav-link {
   color: #fff;
@@ -122,8 +122,8 @@
 }
 
 .btn-success {
-  background-color: #1e7e34;
-  border-color: #1e7e34;
+  background-color: #2c5c37;
+  border-color: #2c5c37;
 }
 .btn-success:hover {
   background-color: #218838;
