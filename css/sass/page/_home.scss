@@ -9,7 +9,7 @@
 // Estilos de la barra de nav ppal
 //Color de fondo y estilo de los link
 .navbar {
-    background-color: $verde;
+    background-color: $verde !important;
     
     // contenedor de los links del menu 
    &-nav {
